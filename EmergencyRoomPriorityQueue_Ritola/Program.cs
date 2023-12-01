@@ -58,7 +58,6 @@ namespace EmergencyRoomPriorityQueue_Ritola
 					{
 						lines = lines.Skip(1).ToArray();
 					}
-					Console.WriteLine(lines[lines.Length - 1]);
 					foreach (string line in lines)
 					{
 						string[] parts = line.Split(',');
